@@ -49,32 +49,60 @@
 
       <div class="profile-card-ctr">
         <button class="profile-card__button button--blue js-message-btn">Contactar</button>
-        <a href="https://4l1n.github.io/portfolio/" target="_blank"><button class="profile-card__button button--orange">Portfolio</button></a>
+        <a href="https://4l1n.github.io/portfolio/"><button class="profile-card__button button--orange">Portfolio</button></a>
       </div>
     </div>
 
     <div class="profile-card-message js-message">
-      <form class="profile-card-form">
+      <form class="profile-card-form" action="https://formspree.io/xbjdzqkl" method="POST">
         <div class="profile-card-form__container">
-          <textarea placeholder="Escribe cualquier cosa..."></textarea>
-        </div>
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Empresa</label>
+            </div>
 
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Nombre</label>
+            </div>
+                
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Asunto</label>
+            </div>
+
+            <div class="group">      
+                <input type="email" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email</label>
+            </div>
+
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Mensaje</label>
+            </div>
+        </div>
         <div class="profile-card-form__bottom">
-          <button class="profile-card__button button--blue js-message-close">
+          <button type="submit" class="profile-card__button button--blue">
             Enviar
           </button>
-
           <button class="profile-card__button button--gray js-message-close">
             Cancelar
           </button>
         </div>
       </form>
-
       <div class="profile-card__overlay js-message-close"></div>
     </div>
-
   </div>
-
 </div>
 
 <svg hidden="hidden">
@@ -116,6 +144,5 @@
 </svg>
 <!-- partial -->
   <script  src="./assets/js/main.js"></script>
-
 </body>
 </html>
