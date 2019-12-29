@@ -43,7 +43,7 @@ a, a:hover {
     height: auto;
     min-height: 100vh;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 40%;
   }
 }
 
