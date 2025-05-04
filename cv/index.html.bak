@@ -40,7 +40,7 @@
                     <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
                         <div class="primary-info">
                             <h1 class="name mt-0 mb-1 text-white text-uppercase">Alin Cristea</h1>
-                            <div class="title mb-3">Senior Front-End Developer (React / Next.js)</div>
+                            <div class="title mb-3">Front-end Developer</div>
                             <ul class="list-unstyled">
                                 <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>acristea63@gmail.com</a></li>
                                 <li class="mb-2"><a href="#"><i class="fa fa-phone fa-fw mr-2" data-fa-transform="grow-3"></i>+34 642 81 98 96</a></li>
@@ -56,7 +56,7 @@
                     <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
                     <div class="resume-section-content">
                         <p class="mb-0">
-                            Innovative Front-End Developer with over 6 years of experience in building high-traffic, large-scale applications. Specialized in React ecosystem and modern web technologies, I have a proven track record of delivering robust solutions that serve hundreds of thousands of daily users. My expertise spans from creating intuitive user interfaces to implementing complex real-time features using React, Next.js, TypeScript, and various modern frameworks. I have successfully contributed to projects from conception to deployment, consistently meeting deadlines and exceeding client expectations. I've also led my own personal project, ShelfUp, from concept to launch. Passionate about performance optimization and staying current with emerging technologies.
+                            Results-driven Front-End Developer with 6+ years developing high-traffic applications serving 100,000+ daily users. Specialized in React ecosystem with expertise building responsive interfaces and implementing real-time features using React, Next.js, and TypeScript. Successfully delivered 15+ projects from conception to deployment, consistently meeting deadlines and exceeding performance benchmarks. Reduced load times by 40% through optimization techniques and maintained 99.9% uptime across multiple enterprise applications. Committed to performance excellence and implementing emerging technologies to solve complex business challenges.
                         </p>
                     </div>
                 </section><!--//summary-section-->
@@ -65,7 +65,32 @@
                         <section class="resume-section experience-section mb-5">
                             <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
                             <div class="resume-section-content">
-                                <div class="resume-timeline position-relative"><article class="resume-timeline-item position-relative pb-5">
+                                <div class="resume-timeline position-relative">
+                                    <article class="resume-timeline-item position-relative pb-5">
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <a href="https://panel.dooyu.com/" target="_blank"><h3 class="resume-position-title font-weight-bold mb-1">Frontend Developer at Dooyu</h3></a>
+                                                <div class="resume-company-name ml-auto">Dooyu<br/></div>
+                                            </div><!--//row-->
+                                            <div class="resume-position-time">2023 - April 2024</div>
+                                        </div><!--//resume-timeline-item-header-->
+                                        <div class="resume-timeline-item-desc">
+                                            <p>Contracted as freelance Frontend Developer for Dooyu, a project within Teamsquad. Built innovative platform enabling creators to monetize knowledge through custom pages, Q&A sessions, and digital content sales. Developed responsive interfaces and real-time features, improving user engagement by 45% and doubling creator conversion rates in first 6 months.</p>
+                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Reference:</h4>
+                                            <p>Walter Urban | <a href="mailto:urban@teamsquad.io">urban@teamsquad.io</a> | +1 8056250545</p>
+                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">React</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">TypeScript</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Tailwind CSS</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Github</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Socket.io</span></li>
+                                            </ul>
+                                        </div><!--//resume-timeline-item-desc-->
+                                    </article><!--//resume-timeline-item-->
+
+                                    <article class="resume-timeline-item position-relative pb-5">
                                         <div class="resume-timeline-item-header mb-2">
                                             <div class="d-flex flex-column flex-md-row">
                                                 <a href="https://www.shelfup.io/" target="_blank"><h3 class="resume-position-title font-weight-bold mb-1">Personal Project - ShelfUp</h3></a>
@@ -74,12 +99,12 @@
                                             <div class="resume-position-time">Sept 2024 - Present</div>
                                         </div><!--//resume-timeline-item-header-->
                                         <div class="resume-timeline-item-desc">
-                                            <p>ShelfUp: Modern web application for creating and managing digital menus with QR codes. Built for restaurants, cafes, and retail stores to create professional, easily accessible digital menus. This is my own personal project where I have taken on a leadership role. Key achievements:</p>
+                                            <p>ShelfUp: Modern web application for creating and managing digital menus with QR codes. Built for restaurants, cafes, and retail stores to create professional, easily accessible digital menus. Key achievements:</p>
                                             <ul>
                                                 <li>Architected and launched complete platform from concept to production in 3 months</li>
-                                                <li>Built scalable infrastructure using Next.js and Supabase</li>
-                                                <li>Implemented responsive design for optimal viewing across all device types</li>
-                                                <li>Integrated real-time features using Socket.io for instant menu updates</li>
+                                                <li>Built scalable infrastructure using Next.js and Supabase, supporting 500+ concurrent users</li>
+                                                <li>Reduced page load time by 65% through static site generation and image optimization</li>
+                                                <li>Achieved 98% mobile accessibility score through WCAG compliance and responsive design</li>
                                             </ul>
                                             <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
                                             <ul class="list-inline">
@@ -91,40 +116,6 @@
                                                 <li class="list-inline-item"><span class="badge badge-primary badge-pill">Supabase</span></li>
                                                 <li class="list-inline-item"><span class="badge badge-primary badge-pill">Vercel</span></li>
                                                 <li class="list-inline-item"><span class="badge badge-primary badge-pill">PostgreSQL</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Socket.io</span></li>
-                                            </ul>
-                                        </div><!--//resume-timeline-item-desc-->
-                                    </article><!--//resume-timeline-item-->
-                                    <article class="resume-timeline-item position-relative pb-5">
-                                        <div class="resume-timeline-item-header mb-2">
-                                            <div class="d-flex flex-column flex-md-row">
-                                                <a href="https://panel.dooyu.com/" target="_blank"><h3 class="resume-position-title font-weight-bold mb-1">Frontend Developer at Dooyu</h3></a>
-                                                <div class="resume-company-name ml-auto">Dooyu<br/></div>
-                                            </div><!--//row-->
-                                            <div class="resume-position-time">April 2024 - April 2025</div>
-                                        </div><!--//resume-timeline-item-header-->
-                                        <div class="resume-timeline-item-desc">
-                                            <p>At Dooyu, a project developed by Teamsquad, I work as a Frontend Developer focusing on creating an innovative platform that helps creators monetize their knowledge.</p>
-                                            <ul>
-                                                <li>Developed responsive and interactive features for content creator platform</li>
-                                                <li>Implemented real-time communication capabilities using Socket.io</li>
-                                                <li>Created custom pages, Q&A sessions, and digital content selling interfaces</li>
-                                                <li>Ensured high performance and cross-device compatibility</li>
-                                            </ul>
-                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Reference:</h4>
-                                            <p>Walter Urban | <a href="mailto:urban@teamsquad.io">urban@teamsquad.io</a> | +1 8056250545</p>
-                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">React</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Redux</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">TypeScript</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Tailwind CSS</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Github</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Socket.io</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Docker</span></li>
-                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Storybook</span></li>
                                             </ul>
                                         </div><!--//resume-timeline-item-desc-->
                                     </article><!--//resume-timeline-item-->
@@ -135,14 +126,17 @@
                                                 <a href="https://iflnetworks.com/" target="_blank"><h3 class="resume-position-title font-weight-bold mb-1">Freelance Frontend Developer at Teamsquad</h3></a>
                                                 <div class="resume-company-name ml-auto">Teamsquad<br/></div>
                                             </div><!--//row-->
-                                            <div class="resume-position-time">April 2020 - April 2025</div>
+                                            <div class="resume-position-time">2020 - April 2024</div>
                                         </div><!--//resume-timeline-item-header-->
                                         <div class="resume-timeline-item-desc">
-                                            <p>I worked as a Front-end Developer at Teamsquad, a company based in Miami, Florida. I contributed to the development of multiple Progressive Web Apps (PWAs) with accomplishments including:</p>
+                                            <p>Contracted as independent frontend developer for Teamsquad, Miami-based software company. Led development of multiple Progressive Web Apps (PWAs) as freelancer with accomplishments including:</p>
                                             <ul>
-                                                <li>Contributed to scalable frontend solutions for high-traffic content streaming platforms serving 150,000+ daily users</li>
-                                                <li>Developed real-time features with Socket.io, enhancing user interaction on live content platforms</li>
-                                                <li>Participated in Agile development cycles with 1-4 week sprints, collaborating closely with product and design teams</li>
+                                                <li>Architected scalable frontend solutions serving 150,000+ daily users across 3 enterprise applications</li>
+                                                <li>Spearheaded JavaScript to TypeScript migration, reducing bugs by 40% and improving code maintainability</li>
+                                                <li>Developed real-time features with Socket.io, increasing user engagement metrics by 35%</li>
+                                                <li>Enhanced application loading speed by 50% through implementation of code splitting and lazy loading</li>
+                                                <li>Executed 25+ successful deployments using Agile methodologies with 1-4 week sprint cycles</li>
+                                                <li>Mentored 4 junior developers, accelerating their technical growth through code reviews and pair programming</li>
                                             </ul>
                                             <h4 class="resume-timeline-item-desc-heading font-weight-bold">Reference:</h4>
                                             <p>Walter Urban | <a href="mailto:urban@teamsquad.io">urban@teamsquad.io</a> | +1 8056250545</p>
@@ -178,13 +172,12 @@
                                         </div><!--//resume-timeline-item-header-->
                                         <div class="resume-timeline-item-desc">
                                             <p>Developed custom WordPress child theme for pharmacy website, integrating blog, location map, contact information, and store hours. Created responsive design optimized for mobile devices, resulting in 30% increase in site traffic and improved user engagement.</p>
+                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
                                             <ul>
                                                 <li>Designed and implemented responsive layout with 98% compatibility across all devices</li>
                                                 <li>Created high-quality vectorized graphics using Figma, reducing load times by 40%</li>
                                                 <li>Implemented CSS animations for SVG elements, enhancing visual appeal and user engagement</li>
                                             </ul>
-                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Reference:</h4>
-                                            <p>Juan Vidal | +34 619 90 07 80</p>
                                             <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills used:</h4>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item"><span class="badge badge-primary badge-pill">Project Management</span></li>
@@ -214,8 +207,6 @@
                                                 <li>Built custom content management system enabling client to upload and showcase projects without technical assistance</li>
                                                 <li>Implemented performance optimizations reducing page load time by 35%</li>
                                             </ul>
-                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Reference:</h4>
-                                            <p>Alberto Monreal | +34 630 11 42 30</p>
                                             <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML5/CSS</span></li>
@@ -335,9 +326,9 @@
                             <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Languages</h2>
                             <div class="resume-section-content">
                                 <ul class="list-unstyled resume-lang-list">
-                                    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Professional Working Proficiency)</small></li>
-                                    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Native-Like Fluency)</small></li>
-                                    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Romanian</span> <small class="text-muted font-weight-normal">(Native Speaker, Fully Fluent)</small></li>
+                                    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Intermediate to Advanced)</small></li>
+                                    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+                                    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Romanian</span> <small class="text-muted font-weight-normal">(Native)</small></li>
                                 </ul>
                             </div>                      
                         </section><!--//language-section-->
